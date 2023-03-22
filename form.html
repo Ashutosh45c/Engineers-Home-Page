@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MHT-CET councelling form</title>
+    </head>
+    <body>
+        <section>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="candidate-name">Full Name : </label>
+                <input id ="candidate-name" type="text" placeholder="Full Name" name = "candidate-name"  required>
+                <br>
+                <label for="phno">Enter your phone number</label>
+                <input type="tel" name="phone-number" id="phno" placeholder="Phone Number" required>
+                <br>
+                <label for="adderess">Enter Your Parmanent Adderess</label>
+                <input type="text" name = "adderess" id = "adderess" placeholder="Adderess">
+            </fieldset>
+            <fieldset>
+                <legend>CET-Details</legend>       
+                <label for="pcm">PCM</label>
+                <input id = "pcm" type="radio" name = "stream" value = "pcm" required>
+                <label for="pcb">PCB</label>
+                <input id = "pcb" type="radio" name = "stream" value = "pcb" required> 
+                <br>
+                <label for="percentile">Enter Percentile:</label>
+                <input type="number" name="Percentile" placeholder="CET Percentile" id="percentile" required>   
+                </fieldset>
+                <fieldset>
+                    <legend>Preference</legend>
+                    <p>Enter Divisional Preference</p>
+                    <label for="all">ALL</label>
+                    <input id = "all" type="radio" name = "all">
+                    <br>
+                    <label for="konkan">Konkan</label>
+                    <input id = "konkan" type="radio" name = "konkan">
+                    <label for="pune">Pune</label>
+                    <input id = "pune" type="radio" name = "pune" checked>
+                    <label for="nashik">Nashik</label>
+                    <input id = "nashik" type="radio" name = "nashik">
+                    <label for="Chhatrapati Sambhajinagar">Chhatrapati Sambhajinagar</label>
+                    <input id = "CSM" type="radio" name = "CSM">
+                    <label for="amravati">Amravati</label>
+                    <input id = "amravati" type="radio" name = "amravati">
+                    <label for="nagpur">Nagpur</label>
+                    <input id = "nagpur" type="radio" name = "nagpur">
+                    <br>
+                    <label for="district">Enter District Peference</label>
+                    <input id ="district" type="text" name = "district" placeholder="district">
+                    <br>
+                    <hr>
+                    <label for="mpc">Most preferred college</label>
+                    <input id="mpc" type="text" name="most-preferred-college">
+
+                </fieldset>    
+        </section>
+    </body>
+</html>
